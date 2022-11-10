@@ -1,13 +1,11 @@
 ---
-title: "About me"
+title: "À Propos d'architecture"
 template: "page"
 socialImage: "./notebook.jpg"
 ---
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.
+_On pourrait définir l'architecture informatique d'une entreprise comme l'organisation fondamentale de ses services numériques, la façon dont ses différents composants sont interconnectés. Mais réduire un système collaboratif à ce qui le compose ne serait pas suffisant, les usages des outils numériques transcendent souvent les idées originelles de ses concepteurs amenant ceux-ci à penser l'amélioration en continu._
 
-![Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi.](/notebook.jpg)
+![Réflexions](/notebook.jpg)
 
-_Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi._
-
-Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
+_L'architecture en informatique doit être portée par une vision concrète de ses domaines d'application, mais aussi par une vision commune des techniciens qui la conçoivent et la maintiennent. La construction d'un système doit permettre l'émergence de paradigmes partagés, sans cela celui-ci sombrera fatalement dans des abstractions divergentes le menant à l'obsolescence._

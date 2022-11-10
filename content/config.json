@@ -1,45 +1,43 @@
 {
-  "title": "Blog by John Doe",
-  "url": "https://lumen.alxshelepenok.com",
-  "subtitle": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-  "copyright": "© All rights reserved.",
-  "googleAnalyticsId": "UA-73379983-2",
+  "title": "Gravito",
+  "url": "https://gravito.fr",
+  "defaultLanguage": "fr-FR",
+  "subtitle": "Gravito : expertise et conseil",
+  "copyright": "© 2022 · Gravito",
+  "googleAnalyticsId": "G-JRDRM4LCC0",
   "disqusShortname": "",
   "postsLimit": 4,
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Articles",
+      "label": "À Propos de moi",
       "path": "/"
-    },
-    {
-      "label": "About me",
-      "path": "/pages/about"
-    },
-    {
-      "label": "Contact me",
-      "path": "/pages/contacts"
     }
   ],
   "author": {
-    "name": "John Doe",
+    "name": "Gabriel Rosset",
     "photo": "/photo.jpg",
-    "bio": "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+    "bio": "Gravito : expertise et conseil",
+    "company": {
+      "name": "Gravito",
+      "logo": "/icon.png",
+      "baseline": "Expertise et conseil"
+    },
     "contacts": {
-      "rss": "",
-      "email": "",
-      "github": "#",
-      "facebook": "#",
-      "telegram": "#",
-      "twitter": "#",
-      "linkedin": "#",
-      "instagram": "#",
-      "line": "",
-      "weibo": "",
+      "email": "gabriel.rosset@gravito.fr",
+      "linkedin": "gabrielrosset",
+      "github": "gabrielrosset",
       "gitlab": "",
       "medium": "",
       "youtube": "",
       "codepen": "",
+      "twitter": "",
+      "facebook": "",
+      "telegram": "",
+      "instagram": "",
+      "line": "",
+      "weibo": "",
+      "rss": "",
       "soundcloud": ""
     }
   }

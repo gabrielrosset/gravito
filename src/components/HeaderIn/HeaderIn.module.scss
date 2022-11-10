@@ -1,0 +1,48 @@
+@import "../../assets/scss/variables";
+@import "../../assets/scss/mixins";
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+
+  .photo {
+    background-clip: padding-box;
+    border-radius: 50%;
+    display: inline-block;
+    height: 75px;
+    margin-right: 10px;
+    width: 75px;
+    @include margin-bottom(0);
+
+    img {
+      border-radius: 50%;
+    }
+  }
+
+  .title {
+    float: right;
+    padding-top: 8px;
+
+    h2 {
+      font-size: $typographic-base-font-size * 1.125;
+      font-weight: 600;
+      margin: 0;
+      @include line-height(1.125);
+
+    }
+
+    .link {
+      color: var(--color-typographic-base-font);
+
+      &:hover,
+      &:focus {
+        color: var(--color-typographic-base-font);
+      }
+    }
+  }
+
+  .scrollButton {
+    cursor: pointer;
+  }
+}

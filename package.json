@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-lumen",
+  "name": "gravito",
   "version": "1.3.53",
-  "description": "A constantly evolving and thoughtful architecture for creating static blogs with Gatsby",
+  "description": "Gravito static blog with Gatsby",
   "keywords": [
     "gatsby",
     "graphql",
@@ -10,10 +10,9 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/alxshelepenok/gatsby-starter-lumen.git"
+    "url": "https://github.com/gabrielrosset/gravito.git"
   },
   "license": "MIT",
-  "author": "Alexander Shelepenok <alxshelepenok@gmail.com>",
   "scripts": {
     "build": "npm run clean && gatsby build",
     "clean": "rimraf .cache public",
@@ -30,6 +29,7 @@
     "serve": "gatsby serve",
     "start": "npm run clean && gatsby develop",
     "test": "jest --config ./internal/testing/jest-config.ts",
+    "test:update-snapshot": "jest --config ./internal/testing/jest-config.ts --updateSnapshot",
     "test:coverage": "jest --coverage --config ./internal/testing/jest-config.ts",
     "test:watch": "jest --watch --config ./internal/testing/jest-config.ts"
   },

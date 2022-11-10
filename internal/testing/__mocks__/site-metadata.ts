@@ -4,11 +4,11 @@ import menu from "./menu";
 export default {
   site: {
     siteMetadata: {
-      url: "https://www.lumen.local",
-      title: "Blog by John Doe",
+      url: "https://gravito.fr/",
+      title: "Gravito",
       subtitle:
-        "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
-      copyright: "All rights reserved.",
+        "Site web Gravito",
+      copyright: "2022 · Gravito",
       postsPerPage: 4,
       author,
       menu,

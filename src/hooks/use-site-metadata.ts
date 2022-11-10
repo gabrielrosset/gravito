@@ -10,6 +10,11 @@ const useSiteMetadata = () => {
               bio
               name
               photo
+              company {
+                name
+                logo
+                baseline
+              }
               contacts {
                 rss
                 line
