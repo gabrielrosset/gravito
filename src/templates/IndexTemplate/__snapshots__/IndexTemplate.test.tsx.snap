@@ -191,7 +191,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           </div>
         </header>
         <h3>
-          Mon parcours : 
+          Mon parcours
         </h3>
         <div
           dangerouslySetInnerHTML={
