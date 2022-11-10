@@ -8,7 +8,7 @@ exports[`PostTemplate renders correctly 1`] = `
         className=""
         href="/"
       >
-        All Articles
+        Retour
       </a>
     </div>
     <div>
@@ -28,8 +28,7 @@ exports[`PostTemplate renders correctly 1`] = `
     <div>
       <div>
         <p>
-          Published
-           
+          Réalisation : 
           Sep 1, 2016
         </p>
       </div>
@@ -37,14 +36,14 @@ exports[`PostTemplate renders correctly 1`] = `
         <p>
           Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
           <a
-            href="https://www.twitter.com/#"
+            href="https://www.linkedin.com/in/undefined"
             rel="noopener noreferrer"
             target="_blank"
           >
             <strong>
               John Doe
             </strong>
-             on Twitter
+             on Linkedin
           </a>
         </p>
       </div>

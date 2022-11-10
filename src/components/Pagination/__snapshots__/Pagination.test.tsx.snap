@@ -8,7 +8,7 @@ exports[`Pagination renders correctly 1`] = `
       href="/typography/page/1"
       rel="prev"
     >
-      ← PREV
+      ← Précédent
     </a>
   </div>
   <div>
@@ -17,7 +17,7 @@ exports[`Pagination renders correctly 1`] = `
       href="/typography/page/3"
       rel="next"
     >
-      → NEXT
+      → Suivant
     </a>
   </div>
 </div>

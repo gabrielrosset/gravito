@@ -9,6 +9,7 @@ import { Comments } from "./Comments";
 import { Content } from "./Content";
 import { Meta } from "./Meta";
 import { Tags } from "./Tags";
+import { POSTS } from "@/constants";
 
 import * as styles from "./Post.module.scss";
 
@@ -19,17 +20,18 @@ interface Props {
 const Post: React.FC<Props> = ({ post }: Props) => {
   const { html } = post;
   const { tagSlugs, slug } = post.fields;
-  const { tags, title, date } = post.frontmatter;
-
+  const { tags, title, date, socialImage } = post.frontmatter;
+  const img = socialImage ? socialImage.publicURL : "";
+  
   return (
     <div className={styles.post}>
       <div className={styles.buttons}>
-        <Button className={styles.buttonArticles} title="All Articles" to="/" />
+        <Button className={styles.buttonArticles} title={POSTS.GO_BACK} to="/" />
         <ThemeSwitcher />
       </div>
 
       <div className={styles.content}>
-        <Content body={html} title={title} />
+        <Content body={html} title={title} image={img} />
       </div>
 
       <div className={styles.footer}>

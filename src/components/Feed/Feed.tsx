@@ -3,6 +3,8 @@ import React from "react";
 import { Link } from "gatsby";
 
 import { Edge } from "@/types";
+import { POSTS } from "@/constants";
+import { useSiteMetadata } from "@/hooks";
 
 import * as styles from "./Feed.module.scss";
 
@@ -10,50 +12,53 @@ type Props = {
   edges: Array<Edge>;
 };
 
-const Feed: React.FC<Props> = ({ edges }: Props) => (
-  <div className={styles.feed}>
-    {edges.map((edge) => (
-      <div className={styles.item} key={edge.node.fields.slug}>
-        <div className={styles.meta}>
-          <time
-            className={styles.time}
-            dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString(
-              "en-US",
-              { year: "numeric", month: "long", day: "numeric" },
-            )}
-          >
-            {new Date(edge.node.frontmatter.date).toLocaleDateString("en-US", {
-              year: "numeric",
-              month: "long",
-            })}
-          </time>
-          <span className={styles.divider} />
-          <span className={styles.category}>
-            <Link to={edge.node.fields.categorySlug} className={styles.link}>
-              {edge.node.frontmatter.category}
+const Feed: React.FC<Props> = ({ edges }: Props) => {
+  const { defaultLanguage } = useSiteMetadata();
+  return (
+    <div className={styles.feed}>
+      {edges.map((edge) => (
+        <div className={styles.item} key={edge.node.fields.slug}>
+          <div className={styles.meta}>
+            <time
+              className={styles.time}
+              dateTime={new Date(edge.node.frontmatter.date).toLocaleDateString(
+                navigator.language || defaultLanguage,
+                { year: "numeric", month: "long", day: "numeric" },
+              )}
+            >
+              {new Date(edge.node.frontmatter.date).toLocaleDateString(navigator.language || defaultLanguage, {
+                year: "numeric",
+                month: "long",
+              })}
+            </time>
+            <span className={styles.divider} />
+            <span className={styles.category}>
+              <Link to={edge.node.fields.categorySlug} className={styles.link}>
+                {edge.node.frontmatter.category}
+              </Link>
+            </span>
+          </div>
+          <h2 className={styles.title}>
+            <Link
+              className={styles.link}
+              to={edge.node.frontmatter?.slug || edge.node.fields.slug}
+            >
+              {edge.node.frontmatter.title}
             </Link>
-          </span>
-        </div>
-        <h2 className={styles.title}>
+          </h2>
+          <p className={styles.description}>
+            {edge.node.frontmatter.description}
+          </p>
           <Link
-            className={styles.link}
+            className={styles.more}
             to={edge.node.frontmatter?.slug || edge.node.fields.slug}
           >
-            {edge.node.frontmatter.title}
+            {POSTS.READ_POST}
           </Link>
-        </h2>
-        <p className={styles.description}>
-          {edge.node.frontmatter.description}
-        </p>
-        <Link
-          className={styles.more}
-          to={edge.node.frontmatter?.slug || edge.node.fields.slug}
-        >
-          Read
-        </Link>
-      </div>
-    ))}
-  </div>
-);
+        </div>
+      ))}
+    </div>
+  );
+};
 
 export default Feed;

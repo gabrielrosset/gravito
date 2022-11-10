@@ -12,6 +12,11 @@ type Props = {
     name: string;
     bio: string;
     photo: string;
+    company: {
+      name: string;
+      logo: string;
+      baseline: string;
+    }
   };
   isIndex?: boolean;
 };
@@ -19,26 +24,26 @@ type Props = {
 const Author = ({ author, isIndex }: Props) => (
   <div className={styles.author}>
     <Link to="/">
-      <Image alt={author.name} path={author.photo} className={styles.photo} />
+      <Image alt={author.company.name} path={author.company.logo} className={styles.photo} />
     </Link>
 
     <div className={styles.titleContainer}>
       {isIndex ? (
         <h1 className={styles.title}>
           <Link className={styles.link} to="/">
-            {author.name}
+            {author.company.name}
           </Link>
         </h1>
       ) : (
         <h2 className={styles.title}>
           <Link className={styles.link} to="/">
-            {author.name}
+            {author.company.name}
           </Link>
         </h2>
       )}
       <ThemeSwitcher />
     </div>
-    <p className={styles.subtitle}>{author.bio}</p>
+    <p className={styles.subtitle}>{author.company.baseline}</p>
   </div>
 );
 

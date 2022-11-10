@@ -15,3 +15,18 @@
   text-transform: none;
   width: 1em;
 }
+
+.iconWrapper {
+  color: var(--color-typographic-base-font) !important;
+  display: inline-block;
+  margin-inline: 5px;
+  text-decoration: none;
+  width: fit-content;
+
+  :hover, :active {
+    color: #009FE3;
+  }
+  :visited {
+    color: var(--color-typographic-base-font) !important;
+  }
+}
