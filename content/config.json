@@ -10,7 +10,7 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "À Propos de moi",
+      "label": "Mon parcours",
       "path": "/"
     }
   ],

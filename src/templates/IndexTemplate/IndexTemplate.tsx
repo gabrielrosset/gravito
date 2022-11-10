@@ -27,7 +27,7 @@ const IndexTemplate: React.FC<Props> = ({ data }: Props) => {
       <Sidebar isIndex />
       <Page>
         <HeaderIn author={author} />
-        <h3>Mon parcours : </h3>
+        <h3>Mon parcours</h3>
         <div dangerouslySetInnerHTML={{ __html: body }} />
         <h3>Technologies web et mobile : </h3>
         <div>
