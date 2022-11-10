@@ -19,7 +19,6 @@ interface Props {
 }
 
 const IndexTemplate: React.FC<Props> = ({ data }: Props) => {
-  console.log('data: ', data);
   const { html: body } = data.markdownRemark;
   const { author } = useSiteMetadata();
 

@@ -31,6 +31,50 @@ const useSiteMetadata = () => {
                 telegram
                 instagram
                 soundcloud
+                html5
+                css3
+                javascript
+                angular
+                reactJs
+                sass
+                less
+                gulp
+                grunt
+                android
+                ios
+                ionic
+                reactNative
+                fastlane
+                firebase
+                sentry
+                npm
+                nodeJs
+                csharp
+                java
+                php
+                symfony
+                wordpress
+                moodle
+                prestashop
+                docker
+                kubernetes
+                terraform
+                ansible
+                jenkins
+                gcp
+                azure
+                aws
+                oauth
+                graphql
+                elasticsearch
+                redis
+                mongodb
+                mysql
+                mariadb
+                postgres
+                jwt
+                appSignal
+                scrollDown
               }
             }
             menu {

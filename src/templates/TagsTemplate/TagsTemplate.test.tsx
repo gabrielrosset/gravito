@@ -32,17 +32,17 @@ describe("TagsTemplate", () => {
 
     expect(testUtils.getMeta("twitter:card")).toEqual("summary_large_image");
     expect(testUtils.getMeta("twitter:title")).toEqual(
-      "Tags - Blog by John Doe",
+      "Tags - Gravito",
     );
-    expect(testUtils.getMeta("og:title")).toEqual("Tags - Blog by John Doe");
+    expect(testUtils.getMeta("og:title")).toEqual("Tags - Gravito");
     expect(testUtils.getMeta("description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "Site web Gravito",
     );
     expect(testUtils.getMeta("twitter:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "Site web Gravito",
     );
     expect(testUtils.getMeta("og:description")).toEqual(
-      "Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.",
+      "Site web Gravito",
     );
   });
 });
