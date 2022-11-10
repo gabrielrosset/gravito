@@ -5,6 +5,7 @@ exports[`Content renders correctly 1`] = `
   <h1>
     Perfecting the Art of Perfection
   </h1>
+  <div />
   <div
     dangerouslySetInnerHTML={
       {

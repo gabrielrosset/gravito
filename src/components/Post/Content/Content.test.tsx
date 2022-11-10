@@ -9,6 +9,7 @@ describe("Content", () => {
     const props = {
       title: mocks.markdownRemark.frontmatter.title,
       body: mocks.markdownRemark.html,
+      image: mocks.markdownRemark.image,
     };
 
     const tree = testUtils

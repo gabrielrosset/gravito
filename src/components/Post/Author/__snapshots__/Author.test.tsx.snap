@@ -3,7 +3,7 @@
 exports[`Author renders correctly 1`] = `
 <div>
   <p>
-    Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.
+    Site web Gravito
     <a
       href="https://www.linkedin.com/in/undefined"
       rel="noopener noreferrer"
