@@ -31,10 +31,10 @@ describe("NotFoundTemplate", () => {
 
     expect(testUtils.getMeta("twitter:card")).toEqual("summary_large_image");
     expect(testUtils.getMeta("twitter:title")).toEqual(
-      "Not Found - Gravito",
+      "Non trouvé - Gravito",
     );
     expect(testUtils.getMeta("og:title")).toEqual(
-      "Not Found - Gravito",
+      "Non trouvé - Gravito",
     );
     expect(testUtils.getMeta("description")).toEqual(
       "Site web Gravito",

@@ -161,12 +161,17 @@ exports[`NotFoundTemplate renders correctly 1`] = `
   <div>
     <div>
       <h1>
-        NOT FOUND
+        Non trouvé
       </h1>
       <div>
         <p>
-          You just hit a route that doesn't exist... the sadness.
+          Cette page n'existe pas...
         </p>
+        <a
+          href="/"
+        >
+          Retour à la racine du site
+        </a>
       </div>
     </div>
   </div>
