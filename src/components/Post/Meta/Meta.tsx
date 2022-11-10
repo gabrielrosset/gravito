@@ -15,7 +15,7 @@ const Meta: React.FC<Props> = ({ date }: Props) => {
     <div className={styles.meta}>
       <p className={styles.date}>
         { POSTS.DATE_POST }
-        {new Date(date).toLocaleDateString(navigator?.language || defaultLanguage, {
+        {new Date(date).toLocaleDateString(defaultLanguage, {
           year: "numeric",
           month: "short",
           day: "numeric",
