@@ -12,6 +12,7 @@ export default {
     author: config.author,
     subtitle: config.subtitle,
     copyright: config.copyright.replace('2022', new Date().getFullYear().toString()),
+    googleAnalyticsId: config.googleAnalyticsId,
     postsLimit: config.postsLimit,
     disqusShortname: config.disqusShortname,
   },

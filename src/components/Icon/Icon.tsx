@@ -20,8 +20,8 @@ const Icon: React.FC<Props> = ({ name, icon, height }: Props) => {
   const customStyles = (height) ? { width: "auto", height: height+"px" } : {};
   if (icon.link) {
     return (
-      <a href={icon.link} className={styles.iconWrapper} target="_blank">
-        <svg key={icon.title} style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
+      <a key={`a_${name}`} href={icon.link} className={styles.iconWrapper} target="_blank">
+        <svg style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
           <title>{icon.title || name}</title>
           { icon.symbol.map((s: Symbol) => (<path d={s.path} fill={s.fill} />)) }
         </svg>
@@ -29,8 +29,8 @@ const Icon: React.FC<Props> = ({ name, icon, height }: Props) => {
     );
   } else {
     return (
-      <span className={styles.iconWrapper}>
-        <svg key={icon.title} style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
+      <span key={`s_${name}`} className={styles.iconWrapper}>
+        <svg style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
           <title>{icon.title || name}</title>
           { icon.symbol.map((s: Symbol) => (<path d={s.path} fill={s.fill} />)) }
         </svg>

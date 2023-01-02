@@ -5,6 +5,7 @@ import { useSiteMetadata } from "@/hooks";
 import { Author } from "./Author";
 import { Contacts } from "./Contacts";
 import { Copyright } from "./Copyright";
+import { CookieBanner } from "./CookieBanner";
 import { Menu } from "./Menu";
 
 import * as styles from "./Sidebar.module.scss";
@@ -14,7 +15,7 @@ type Props = {
 };
 
 const Sidebar = ({ isIndex }: Props) => {
-  const { author, copyright, menu } = useSiteMetadata();
+  const { googleAnalyticsId, author, copyright, menu } = useSiteMetadata();
 
   return (
     <div className={styles.sidebar}>
@@ -23,6 +24,7 @@ const Sidebar = ({ isIndex }: Props) => {
         <Menu menu={menu} />
         <Contacts contacts={author.contacts} />
         <Copyright copyright={copyright} />
+        <CookieBanner googleAnalyticsId={googleAnalyticsId} />
       </div>
     </div>
   );

@@ -41,6 +41,7 @@ const useSiteMetadata = () => {
             title
             subtitle
             copyright
+            googleAnalyticsId
             disqusShortname
           }
         }

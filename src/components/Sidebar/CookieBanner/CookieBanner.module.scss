@@ -1,0 +1,28 @@
+@use "sass:color";
+
+@import "../../../assets/scss/variables";
+@import "../../../assets/scss/mixins";
+
+.bannerLight {
+  background: hsl(198, 96%, 45%) !important;
+  color: var(--color-typographic-base-font) !important;
+  
+  .buttons {
+    background: hsl(202, 100%, 39%) !important;
+    color: var(--color-prism-background) !important;
+  }
+}
+
+.bannerDark {
+  background: hsl(202, 100%, 39%) !important;
+  color: var(--color-typographic-base-font) !important;
+  
+  .buttons {
+    background: hsl(206, 100%, 33%) !important;
+    color: var(--color-typographic-base-font) !important;
+  }
+}
+
+.privacyLink {
+  color: var(--color-typographic-base-font);
+}
