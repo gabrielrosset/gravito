@@ -10,8 +10,12 @@
   "pathPrefix": "/",
   "menu": [
     {
-      "label": "Mon parcours",
+      "label": "Introduction",
       "path": "/"
+    },
+    {
+      "label": "Mentions légales",
+      "path": "/pages/legal"
     }
   ],
   "author": {

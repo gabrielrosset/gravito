@@ -1,5 +1,5 @@
 ---
-title: "introduction"
+title: "Introduction"
 template: "page"
 ---
 
