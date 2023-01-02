@@ -273,7 +273,7 @@ exports[`PageTemplate renders correctly 1`] = `
           }
         >
           <span>
-            Ce site web utilise des cookies. test
+            Ce site web utilise des cookies. 
           </span>
           <a
             href="/pages/privacy"
