@@ -21,7 +21,7 @@ const Icon: React.FC<Props> = ({ name, icon, height }: Props) => {
   if (icon.link) {
     return (
       <a href={icon.link} className={styles.iconWrapper} target="_blank">
-        <svg style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
+        <svg key={icon.title} style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
           <title>{icon.title || name}</title>
           { icon.symbol.map((s: Symbol) => (<path d={s.path} fill={s.fill} />)) }
         </svg>
@@ -30,7 +30,7 @@ const Icon: React.FC<Props> = ({ name, icon, height }: Props) => {
   } else {
     return (
       <span className={styles.iconWrapper}>
-        <svg style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
+        <svg key={icon.title} style={customStyles} className={styles.icon} viewBox={icon.viewBox}>
           <title>{icon.title || name}</title>
           { icon.symbol.map((s: Symbol) => (<path d={s.path} fill={s.fill} />)) }
         </svg>

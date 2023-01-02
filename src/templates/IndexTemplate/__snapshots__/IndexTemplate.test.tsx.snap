@@ -565,7 +565,7 @@ exports[`IndexTemplate renders correctly 1`] = `
           </a>
         </div>
         <h3>
-          Technologies serveur : 
+          Technologies serveur :
         </h3>
         <div>
           <a
