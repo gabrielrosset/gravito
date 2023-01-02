@@ -27,7 +27,7 @@ const CookieBanner = ({ googleAnalyticsId }: Props) => {
     declineButtonClasses={ styles.buttons }
     expires={150}
   >
-    <span>{ COOKIES.BANNER + " " + process.env.NODE_ENV }</span>
+    <span>{ COOKIES.BANNER + " " }</span>
     <Link to="/pages/privacy" className={styles.privacyLink} activeClassName={styles.active}>{COOKIES.LINK_TEXT}</Link>
   </CookieConsent>
 };
