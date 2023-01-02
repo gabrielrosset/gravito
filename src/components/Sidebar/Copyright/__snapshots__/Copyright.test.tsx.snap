@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Copyright renders correctly 1`] = `
-<div>
+<div
+  title="Version 1.1.0 - test"
+>
   2022 · Gravito
 </div>
 `;
