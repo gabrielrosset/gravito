@@ -23,6 +23,8 @@ const CookieBanner = ({ googleAnalyticsId }: Props) => {
     ariaDeclineLabel={ COOKIES.DECLINE_DESCRIPTION }
     cookieName="GDPRCookieConsent"
     containerClasses={ mode == "dark" ? styles.bannerDark : styles.bannerLight }
+    contentClasses={ styles.contentWrapper }
+    buttonWrapperClasses={ styles.buttonsWrapper }
     buttonClasses={ styles.buttons }
     declineButtonClasses={ styles.buttons }
     expires={150}

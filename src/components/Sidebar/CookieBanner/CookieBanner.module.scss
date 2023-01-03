@@ -3,9 +3,34 @@
 @import "../../../assets/scss/variables";
 @import "../../../assets/scss/mixins";
 
+.contentWrapper {
+  align-items: center;
+  color: var(--color-typographic-base-font) !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10px !important;
+
+  .privacyLink {
+    color: var(--color-typographic-base-font);
+    text-decoration: underline;
+  }
+
+  span, a {
+    padding-right: 6px;
+  }
+}
+
+.buttonsWrapper {
+  margin: 0 auto;
+
+  .buttons {
+    margin: 10px !important;
+  }
+}
+
 .bannerLight {
   background: hsl(198, 96%, 45%) !important;
-  color: var(--color-typographic-base-font) !important;
   
   .buttons {
     background: hsl(202, 100%, 39%) !important;
@@ -15,14 +40,9 @@
 
 .bannerDark {
   background: hsl(202, 100%, 39%) !important;
-  color: var(--color-typographic-base-font) !important;
   
   .buttons {
     background: hsl(206, 100%, 33%) !important;
     color: var(--color-typographic-base-font) !important;
   }
-}
-
-.privacyLink {
-  color: var(--color-typographic-base-font);
 }
