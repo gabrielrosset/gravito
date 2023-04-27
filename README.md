@@ -9,8 +9,8 @@
 
 ## Table of contents
 
-- [Quick Start](http://github.com/gabrielrosset/gravito#quick-start)
-- [Folder Structure](http://github.com/gabrielrosset/gravito#folder-structure)
+- [Quick Start](https://github.com/gabrielrosset/gravito#quick-start)
+- [Folder Structure](https://github.com/gabrielrosset/gravito#folder-structure)
 
 ## Quick Start
 
@@ -36,13 +36,16 @@ $ npm run start
     ├── assets
     │   └── scss
     │       ├── base
-    │       └── mixins
+    │       ├── mixins
+    │       └── themes
     ├── components
+    │   ├── Button
     │   ├── Feed
     │   ├── HeaderIn
     │   ├── Icon
     │   ├── Image
     │   ├── Layout
+    │   ├── Meta
     │   ├── Page
     │   ├── Pagination
     │   ├── Post
@@ -51,11 +54,15 @@ $ npm run start
     │   │   ├── Content
     │   │   ├── Meta
     │   │   └── Tags
-    │   └── Sidebar
-    │       ├── Author
-    │       ├── Contacts
-    │       ├── Copyright
-    │       └── Menu
+    │   ├── Sidebar
+    │   │   ├── Author
+    │   │   ├── Contacts
+    │   │   ├── CookieBanner
+    │   │   ├── Copyright
+    │   │   └── Menu
+    │   ├── SkillsBackend
+    │   ├── SkillsFrontend
+    │   └── ThemeSwitcher
     ├── constants
     ├── hooks
     ├── templates

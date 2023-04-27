@@ -39,4 +39,4 @@ Les données de navigation des utilisateurs sur notre site Web sont conservées 
 
 > Quels sont vos droits ?  
 Vous disposez d’un droit d’accès, de modification et de suppression sur les données qui vous concernent, d’un droit de limitation, à la portabilité, à l’effacement et d’opposition pour des motifs légitimes en adressant un e-mail au délégué à la protection des données personnelles.  
-Vous disposez par ailleurs, du droit d’introduire une réclamation auprès de la Commission Nationale de l’Informatique et des Libertés (CNIL), notamment sur son site internet http://www.cnil.fr.  
+Vous disposez par ailleurs, du droit d’introduire une réclamation auprès de la Commission Nationale de l’Informatique et des Libertés (CNIL), notamment sur son site internet https://www.cnil.fr.  

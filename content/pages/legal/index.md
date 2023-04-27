@@ -8,7 +8,9 @@ template: "page"
 Nous vous invitons à lire attentivement les présentes Conditions Générales d’Utilisation régissant la navigation sur ce site et ses règles sur la politique de confidentialité et de vie privée.
 
 ### Editeur
-Le présent site est la propriété de Gravito, Gravito se réserve le droit de modifier le contenu de ce site internet de toutes les façons que ce soit, à tout moment et pour n’importe quelle raison, et ce, sans notification préalable particulière. Gravito ne pourra être tenue pour responsable, de quelque manière que ce soit, des conséquences de telles modifications. Par ailleurs, Gravito décline toute responsabilité du fait d’éventuelles informations accessibles sur le site web et s’avérant matériellement erronées ou incomplètes (erreurs techniques ou défaillances dues au système d’information du site web, erreurs matérielles ou typographiques lors de leur introduction dans le système, erreur ou omission dans une mise à jour).
+Le présent site est la propriété de Gravito, société par actions simplifiée au capital social de 1000 €, dont le siège est situé au 45 allée des pervenches, 91390 Morsang sur Orge, inscrite au Registre du Commerce et des Sociétés d'Evry sous le n° 951 705 946.
+
+Gravito se réserve le droit de modifier le contenu de ce site internet de toutes les façons que ce soit, à tout moment et pour n’importe quelle raison, et ce, sans notification préalable particulière. Gravito ne pourra être tenue pour responsable, de quelque manière que ce soit, des conséquences de telles modifications. Par ailleurs, Gravito décline toute responsabilité du fait d’éventuelles informations accessibles sur le site web et s’avérant matériellement erronées ou incomplètes (erreurs techniques ou défaillances dues au système d’information du site web, erreurs matérielles ou typographiques lors de leur introduction dans le système, erreur ou omission dans une mise à jour).
 
 ### Contact
 **Responsable du site :** Gabriel Rosset, Responsable technique.  
