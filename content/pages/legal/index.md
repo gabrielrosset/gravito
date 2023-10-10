@@ -13,14 +13,14 @@ Le présent site est la propriété de Gravito, société par actions simplifié
 Gravito se réserve le droit de modifier le contenu de ce site internet de toutes les façons que ce soit, à tout moment et pour n’importe quelle raison, et ce, sans notification préalable particulière. Gravito ne pourra être tenue pour responsable, de quelque manière que ce soit, des conséquences de telles modifications. Par ailleurs, Gravito décline toute responsabilité du fait d’éventuelles informations accessibles sur le site web et s’avérant matériellement erronées ou incomplètes (erreurs techniques ou défaillances dues au système d’information du site web, erreurs matérielles ou typographiques lors de leur introduction dans le système, erreur ou omission dans une mise à jour).
 
 ### Contact
-**Responsable du site :** Gabriel Rosset, Responsable technique.
+**Responsable du site :** Gabriel Rosset, Responsable technique.  
 **Contact :** pour les courriels merci d'utiliser le lien du menu principal.
 
 ### Hébergement
-Le prestataire assurant l’hébergement du site est la société Netlify Inc.
-Son siège social est situé au :
+Le prestataire assurant l’hébergement du site est la société Netlify Inc.  
+Son siège social est situé au :  
 44 Montgomery Street, Suite 300,
-San Francisco, California 94104
+San Francisco, California 94104  
 **Contact :** support@netlify.com
 
 ### Propriété intellectuelle
