@@ -3,7 +3,7 @@ title: "Mentions légales"
 template: "page"
 ---
 
-## Bienvenue sur le site Gravito. 
+## Bienvenue sur le site Gravito.
 
 Nous vous invitons à lire attentivement les présentes Conditions Générales d’Utilisation régissant la navigation sur ce site et ses règles sur la politique de confidentialité et de vie privée.
 
@@ -13,15 +13,15 @@ Le présent site est la propriété de Gravito, société par actions simplifié
 Gravito se réserve le droit de modifier le contenu de ce site internet de toutes les façons que ce soit, à tout moment et pour n’importe quelle raison, et ce, sans notification préalable particulière. Gravito ne pourra être tenue pour responsable, de quelque manière que ce soit, des conséquences de telles modifications. Par ailleurs, Gravito décline toute responsabilité du fait d’éventuelles informations accessibles sur le site web et s’avérant matériellement erronées ou incomplètes (erreurs techniques ou défaillances dues au système d’information du site web, erreurs matérielles ou typographiques lors de leur introduction dans le système, erreur ou omission dans une mise à jour).
 
 ### Contact
-**Responsable du site :** Gabriel Rosset, Responsable technique.  
+**Responsable du site :** Gabriel Rosset, Responsable technique.
 **Contact :** pour les courriels merci d'utiliser le lien du menu principal.
 
 ### Hébergement
-Le prestataire assurant l’hébergement du site est la société Gatsby Inc.  
-Son siège social est situé au :  
-548 Market St #36791  
-San Francisco, California 94104  
-**Contact :** legal@gatsbyjs.com
+Le prestataire assurant l’hébergement du site est la société Netlify Inc.
+Son siège social est situé au :
+44 Montgomery Street, Suite 300,
+San Francisco, California 94104
+**Contact :** support@netlify.com
 
 ### Propriété intellectuelle
 Ce site Internet, sa structure générale, ainsi que les textes, images animées ou non, et tout autre élément composant le site sont la propriété exclusive de Gravito. Toute reproduction ou représentation totale ou partielle de ce site, par quelque procédé que ce soit, sans l’autorisation expresse de Gravito est interdite. A défaut d’autorisation expresse, la société se réserve la possibilité de poursuivre tout acte de contrefaçon de ses droits de propriété intellectuelle. Le site et son contenu sont régis par le droit français et tout litige éventuel s’y rapportant sera soumis à la compétence des tribunaux français.
